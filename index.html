@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using Node</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        div {
+            padding-top: 170px;
+        }
+
+        form {
+            display: inline-block;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input {
+            width: 150px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h1>Calculator</h1>
+        <form action="/" method="post">
+            <input type="text" class="form-control" name="num1" placeholder="First number">
+            <input type="text" class="form-control" name="num2" placeholder="Second number">
+            <br><br>
+            <button type="submit" name="operation" value="add">Add</button>
+            <button type="submit" name="operation" value="sub">Subtract</button>
+            <button type="submit" name="operation" value="mul">Multiply</button>
+            <button type="submit" name="operation" value="div">Divide</button>
+        </form>
+    </div>
+</body>
+</html>
